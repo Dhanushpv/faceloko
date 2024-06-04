@@ -1,86 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/facebooklogin/login.css">
-</head>
-<body>
-    <div>
-        <div class="image">
-            <img src="/image/Untitled.png" alt="facebook" id="head">
-        </div>
-        <div class="background">
-            <div class="formmain">
-                <div class="form1">
-                    <h1>Create a new account <br></h1>
-                    <div class="form111">
-                        <h6>Its </h6>
-                    </div>
-                        
-                </div>
-                <div class="from2">
-                    <label for="firstname"></label>
-                    <input type="text" placeholder="Firat name" class="from22">
-                </div>
-                <div class="form3">
-                    <label for="Surname"></label>
-                    <input type="text" placeholder="Surname" class="from33">
-                </div>
-                <div class="form4">
-                    <label for="email or phone"></label>
-                    <input type="email or number" placeholder=" Email or Phone.no" class="form44">
-                </div>
-                <div class="form5">
-                    <label for="password"></label>
-                    <input type="password" placeholder="password" class="form55">
-                </div>
-                <div>
-                    <div class="from6">
-                        <select name="Date" id="date">
-                            <option value="">Date</option>
-                            <option value="Date">1</option>
-                            <option value="Date">2</option>
-                            <option value="Date">3</option>
-                        </select>
-                    </div>
-                    <div class="form7">
-                        <select name="month" id="month">
-                            <option value="">Month</option>
-                            <option value="month">jan</option>
-                            <option value="month">feb</option>
-                            <option value="month">mar</option>
-                        </select>
-                    </div>
-                    <div class="form8">
-                        <select name="year" id="year">
-                            <option value="">year</option>
-                            <option value="year">2001</option>
-                            <option value="year">2002</option>
-                            <option value="year">2003</option>
-                            <option value="year">2004</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form9">
-                    <label for="female">female</label>
-                    <input type="radio">
-                </div>
-                <div class="form10">
-                    <label for="male">male</label>
-                    <input type="radio">
-                </div>
-                <div class="form11">
-                    <label for="coustom">coustom</label>
-                    <input type="radio">
-                </div>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/facebooklogin/login.css">  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    </head>
+    <body>
+        <div>
+            <div class="image">
+                <img src="/image/Untitled.png" alt="facebook" id="head">
             </div>
+            <div class="background">
+                <div class="formmain">
+                    <div class="form1">
+                        <h1>Create a new account <br></h1>
+                        <div class="form111">
+                            <h6 class="h6">Its Quick and easy </h6>
+                        </div>    
+                    </div>
+                    <div class="from2">
+                        <label for="firstname"></label>
+                        <input type="text" placeholder="Firat name" class="from22" name="firstname">
+                    </div>
+                    <div class="form3">
+                        <label for="Surname"></label>
+                        <input type="text" placeholder="Surname" class="from33" name="surname">
+                    </div>
+                    <div class="form4">
+                        <label for="email or phone"></label>
+                        <input type="number" placeholder=" Email or Phone.no" class="form44" name="phonenumber">
+                    </div>
+                    <div class="form5">
+                        <label for="password"></label>
+                        <input type="password" placeholder="password" class="form55">
+                    </div>
+                    <div>
+                        <div class="from6">
+                            <!-- <label class="Date">Date of birth?</label> -->
+                            <select name="Date" id="date">
+                                <option value="">Date</option>
+                                <option value="Date">1</option>
+                                <option value="Date">2</option>
+                                <option value="Date">3</option>
+                            </select>
+                        </div>
+                        <div class="form7">
+                            <select name="month" id="month">
+                                <option value="">Month</option>
+                                <option value="month">jan</option>
+                                <option value="month">feb</option>
+                                <option value="month">mar</option>
+                            </select>
+                        </div>
+                        <div class="form8">
+                            <select name="year" id="year">
+                                <option value="">year</option>
+                                <option value="year">2001</option>
+                                <option value="year">2002</option>
+                                <option value="year">2003</option>
+                                <option value="year">2004</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form99">
+                        <div class="form9">
+                            <label for="female">female</label>
+                            <input type="radio">
+                        </div>
+                        <div class="form10">
+                            <label for="male">male</label>
+                            <input type="radio">
+                        </div>
+                        <div class="form11">
+                            <label for="coustom">coustom</label>
+                            <input type="radio">
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, commodi? Sapiente est<br> ab consequatur quasi</p>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, commodi? Sapiente est<br> ab consequatur quasi</p>
+                        </div>
+                    </div>
+                    <div class="form12">
+                        <input type="button" value="Sign UP" id="form12">
+                    </div>
+                    <div class="form13" >
+                        <a href="/facebooklogin/login.html" id="form13"> Already have an Account? </a>
+                    </div>
+                </div> 
+                
+            </div>
+        </div> 
+        <script>
+            $(document).ready(function(){
+            $("input[type=button]").on("click",function(){
 
 
-        </div>
-    </div>
-    
-</body>
+            nameregex=/^[a-z][a-z\s]*$/
+
+            uname= $("input[name=firstname]").val()
+            sur= $("input[name=surname]").val()
+            phone= $("input[name=phonenumber]").val()
+
+            if(uname==""){
+            alert("Enter name Feild")
+            return false
+            }else if(!uname.match(nameregex)){
+            alert("Enter name properly")
+            return false
+            }
+            if(sur==""){
+            alert("Enter surname")
+            return false
+            }else if(!sur.match(nameregex)){
+            alert("Enter name properly")
+            return false
+            }
+            if(phone.lenght!=10)
+            alert("Enter Phone With 10 digits ")
+            return false
+            })
+            })
+        </script>
+    </body>
 </html>
