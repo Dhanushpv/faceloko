@@ -1,0 +1,113 @@
+#head{
+   
+    margin-left: 100%;
+    margin-right: 100%;
+}
+.image{
+    width: 40%;
+    /* background-color: aqua; */
+}
+/* .background{
+    /* text-align: center; 
+} */
+.formmain{
+    background-color: rgb(238, 237, 237);
+    margin-left: 33%;
+    border-radius: 10px;
+    width: 30%;
+    height: 600px;
+    border-style:groove;
+    /* margin-right: 50%; */
+    /* border: 20PX;   */
+    /* height: 50%; */
+}
+h1{
+    /* border-bottom: 2px solid rgb(0, 0, 0); */
+    margin-top: 40px;
+}
+h6{
+    border-bottom: 1px solid rgb(0,0,0);
+    
+}
+/* .form111{
+
+} */
+.from22{
+    margin-left: 70px;
+    float: left;
+    padding: 10px;
+}
+.from33{
+    /* margin-left: 200px;
+    margin-bottom: 20px; */
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+}
+.form44{
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 60%;
+    padding: 10px;
+}
+.form55{
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 60%;
+    padding: 10px;
+}
+#date{
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 69px;
+    width: 15%;
+    /* background-color: brown; */
+    float: left;
+}
+#month{
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    /* background-color: aqua; */
+    width: 15%;
+}
+#year{
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    /* background-color: aqua; */
+    width: 15%;
+}
+.form1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form9{
+    float: right;
+    margin-top: 27px;
+    /* width: 10%; */
+    margin-right: 395px;
+    border-style:groove;
+    padding: 10px;
+}
+.form10{
+    float: left;
+    /* margin-top: 27px; */
+    /* width: 10%; */
+    margin-left: 200px;
+    border-style:groove;
+    padding: 10px;
+    margin-bottom: 40px;
+    /* width: 10%; */
+}
+.form11{
+    float: right;
+    margin-top: 27px;
+    /* width: 10%; */
+    margin-right: 395px;
+    border-style:groove;
+    padding: 10px;
+}
+   
